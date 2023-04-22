@@ -1,0 +1,80 @@
+main section.section-2{
+    position: relative;
+    color: $white1;
+    .back-noir{
+        background: $black1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+    .section-2-title{
+        text-align: center;
+        padding-bottom: 50px;
+        h3{
+            padding: 40px;
+            font-size: 3rem;
+        }
+    }
+    .section-2-top{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 60px;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 60px;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $fontr;
+                height: 60px;
+                text-transform: uppercase;
+                font-weight: 100;
+                border-bottom: 1px solid $white1;
+            }
+
+        }
+    }
+    .section-2-main{
+        padding-bottom: 50px;
+        .section-2-main-containers{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 80%;
+            margin: 5% 10%;
+            background: $grey2;
+            color: $black1;
+            padding: 10px;
+            
+            img{
+                border-radius: 400px;
+            }
+            .left{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                align-items: center;
+            }
+            .section-2-main-left{
+                display: grid;
+                grid-template-rows: 25% 25% 25% 25%;
+            }
+            .section-2-main-right{
+                display: grid;
+                grid-template-rows: 25% 25% 25% 25%;
+            }
+        }
+    }
+    .back-menu{
+        background: url(../../../assets/img/bg-menu-01.jpg)center/cover;
+        height: 60%;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }   
+}

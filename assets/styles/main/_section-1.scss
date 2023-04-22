@@ -1,0 +1,51 @@
+.section-1{
+    display: grid;
+    background-color: $grey2;
+    grid-template-columns: 50% 50%;
+    .section-1-left{
+        text-align: center;
+        margin: 20px;
+        border: 1px dotted $brown1;
+        h3{
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+        h4{
+            font-family: $fontp;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+        p{
+            font-family: $fontr;
+            padding: 20px;
+            font-weight: 200;
+            font-size: 1rem;
+        }
+        #avatar-sec1{
+            border-radius: 400px;
+            height: 90px;
+            width: 90px;
+        }
+        #name{
+            display: block;
+            font-family: $fontp;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            padding-top: 30px;
+        }
+        #fonction{
+            display: block;
+            font-family: $fontp;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            color: grey;
+       
+    }
+}
+img#bol{
+    max-width: 100%;
+    height: 100%;
+}
+    
+}

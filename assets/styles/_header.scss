@@ -1,0 +1,65 @@
+header{
+    background: url(../img/bg-slider-06.jpg)center/cover;
+    height: 100vh;
+    nav{
+        display: flex;
+        color: $white1;
+        align-items: center;
+        justify-content: space-around;
+        h1{
+            font-family: $fonta;
+            font-size: 3rem;
+        }
+        ul{
+            display: flex;
+            li{
+                font-family: $fontr;
+                padding: 25px;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                letter-spacing: 2px;
+            }
+        }
+        i{
+            padding: 10px;
+            font-size: 0.7rem;
+        }
+    }
+    .header-title{
+        display: block;
+            .header-title-containers{
+                display: block;
+                text-align: center;
+                padding-top: 200px;
+                h2{
+                    text-transform: uppercase;
+                    font-family: $fontp;
+                    color: $white1;
+                    font-size: 4rem;
+                    letter-spacing: 15px;
+                    padding-bottom: 50px;
+                }
+                h3{
+                    font-size: 3rem;
+                    font-weight: 200;
+                    letter-spacing: 6px;
+                    height: 30px;
+                }
+                img{
+                    height: 30px;
+                    width: 30px;
+                }
+                p{
+                    color: $white1;
+                    font-family: $fontr;
+                    text-transform: uppercase;
+                    font-size: 0.9rem;
+                    padding: 40px;
+                    font-weight: 200;
+                    letter-spacing: 10px;
+                }
+            }
+        
+    }
+
+}
