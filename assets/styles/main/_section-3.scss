@@ -1,0 +1,87 @@
+.section-3{
+    background: $black1;
+    color: $white1;
+    .section-3-containers{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        width: 90%;
+        margin: 0px auto;
+        padding: 70px 0;
+        h3{
+            font-size: 2rem;
+            font-weight: 200;
+        }
+        h4{
+            text-transform: uppercase;
+            font-family: $fontp;
+            padding-bottom: 20px;
+            font-size: 2rem;
+        }
+        h6{
+            text-transform: uppercase;
+            font-family: $fontp;
+            letter-spacing: 2px;
+            font-size: 1.3rem;
+            padding: 20px;
+            color: $brown1;
+        }
+        p{
+        font-family: $fontr;
+        font-size: 1rem;
+
+        }
+        .section-3-left{
+            background: $black2;
+            .sec-3-left-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+                border: 1px dotted $white1;
+                padding: 30px;
+            }
+        }
+        .section-3-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background: $grey2;
+            color: $black2;
+            form{
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                font-family: $fontp;
+                padding: 30px;
+                .form-1{
+                    display: grid;
+                    grid-template-columns: 33.3% 33.3% 33.3%;
+                    gap: 10px;
+                }
+                input,select{
+                    border: none;
+                    background: transparent;
+                    margin: 10px;
+                    font-size: 1rem;
+                    padding-bottom: 10px;
+                    border-bottom:1px solid rgb(209, 208, 208) ;
+                }
+            }
+            button{
+                display: block;
+                margin: 40px auto;
+                background: $black1;
+                font-family: $fontp;
+                text-transform: uppercase;
+                padding: 10px 30px;
+                border-radius: 30px;
+                font-size: 1rem;
+                color: $white1;
+                letter-spacing: 2px;
+
+            }
+        }
+    }
+}

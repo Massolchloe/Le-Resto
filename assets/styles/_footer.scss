@@ -1,0 +1,64 @@
+footer{
+    background: url(../../assets/img/bg-footer.jpg)center/cover;
+    color: $white1;
+    .footer-containers{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 60px 0;
+        h3{
+            font-size: 2.5rem;
+        }
+
+        p{
+            font-family: $fontr;
+            line-height: 40px;
+        }
+        
+        .newsletter{
+            display: grid;
+            grid-template-rows: 50% 50%;
+            h6{
+                font-family: $fontr;
+                text-transform: uppercase;
+                font-size: 1rem;
+                letter-spacing: 2px;
+                padding: 20px 0;
+            }
+            input{
+                background: transparent;
+                padding: 10px 20px;
+                font-family: $fontr;
+                font-size: 1rem;
+                border: 1px solid $grey1;
+                
+            }
+            .news{
+                padding-bottom: 40px;
+            }
+
+        }
+        .follow{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h6{
+                width: 100%;
+            }
+        
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 80%;
+                li{
+                    display: flex;
+                    align-items: center;
+                    color: $grey1;
+                }
+            }
+        }
+    }
+}
