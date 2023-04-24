@@ -35,6 +35,9 @@ main section.section-2{
                 text-transform: uppercase;
                 font-weight: 100;
                 border-bottom: 1px solid $white1;
+                @media screen and (max-width:500px){
+                    font-size: 0.7rem;   
+                 }  
             }
 
         }
@@ -51,7 +54,12 @@ main section.section-2{
             padding: 40px 20px;
             gap: 20px;
             box-shadow: #bd7214 1px -7px 0;
-            border-radius: 3px;     
+            border-radius: 3px; 
+            @media screen and (max-width:998px){
+                display: block;
+                padding: 0;
+                 
+             }     
            
             .left{
                 display: grid;
@@ -64,10 +72,18 @@ main section.section-2{
                 font-family: $fontr;
                 padding: 30px 0;
                 border-bottom: 1px solid rgba(172, 172, 172, 0.671);
+                
+                @media screen and (max-width:500px){
+                    font-size: 0.7rem;
+                 }  
                 img{
                     height: 80px;
                     width: 80px;
                     border-radius: 400px;
+                    @media screen and (max-width:500px){
+                        height: 60px;
+                        width: 60px;
+                     }  
                 }
                 h5{
                     text-transform: uppercase;
@@ -75,6 +91,9 @@ main section.section-2{
                 span{
                     color: $brown1;
                     font-size: 1rem;
+                    @media screen and (max-width:500px){
+                        font-size: 0.7rem;
+                     }  
                 }
                 
             }
@@ -83,6 +102,11 @@ main section.section-2{
                 grid-template-rows: 25% 25% 25% 25%;
                 width: 90%;
                 padding: 0 0 0 50px;
+                @media screen and (max-width:998px){
+                    padding: 0;
+                    margin:0 5%;
+                     
+                 }     
             }
             .section-2-main-right{
                 display: grid;
@@ -90,6 +114,10 @@ main section.section-2{
                 width: 90%;
                 padding: 0 50px 0 0;
                 margin: 0 5%;
+                @media screen and (max-width:998px){
+                    padding: 0;
+                     
+                 }   
             }
         }
     }

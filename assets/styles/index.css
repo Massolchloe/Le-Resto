@@ -54,6 +54,17 @@ header nav ul li {
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
+@media screen and (max-width: 975px) {
+  header nav ul li {
+    font-size: 0.7rem;
+    padding: 25px 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  header nav ul {
+    display: none;
+  }
+}
 header nav i {
   padding: 10px;
   font-size: 0.7rem;
@@ -74,6 +85,16 @@ header .header-title .header-title-containers h2 {
   letter-spacing: 15px;
   padding-bottom: 50px;
 }
+@media screen and (max-width: 500px) {
+  header .header-title .header-title-containers h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .header-title .header-title-containers h2 {
+    font-size: 2rem;
+  }
+}
 header .header-title .header-title-containers h3 {
   font-size: 3rem;
   font-weight: 200;
@@ -93,11 +114,28 @@ header .header-title .header-title-containers p {
   font-weight: 200;
   letter-spacing: 10px;
 }
+@media screen and (max-width: 500px) {
+  header .header-title .header-title-containers p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .header-title .header-title-containers p {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+}
 
 .section-1 {
   display: grid;
   background-color: rgb(238, 238, 238);
   grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 900px) {
+  .section-1 {
+    display: block;
+    padding: 20px;
+  }
 }
 .section-1 .section-1-left {
   text-align: center;
@@ -143,6 +181,11 @@ header .header-title .header-title-containers p {
   max-width: 100%;
   height: 100%;
 }
+@media screen and (max-width: 900px) {
+  .section-1 img#bol {
+    display: none;
+  }
+}
 
 main section.section-2 {
   position: relative;
@@ -185,6 +228,11 @@ main section.section-2 .section-2-top ul li {
   font-weight: 100;
   border-bottom: 1px solid rgb(243, 243, 243);
 }
+@media screen and (max-width: 500px) {
+  main section.section-2 .section-2-top ul li {
+    font-size: 0.7rem;
+  }
+}
 main section.section-2 .section-2-main {
   padding-bottom: 90px;
 }
@@ -200,6 +248,12 @@ main section.section-2 .section-2-main .section-2-main-containers {
   box-shadow: #bd7214 1px -7px 0;
   border-radius: 3px;
 }
+@media screen and (max-width: 998px) {
+  main section.section-2 .section-2-main .section-2-main-containers {
+    display: block;
+    padding: 0;
+  }
+}
 main section.section-2 .section-2-main .section-2-main-containers .left {
   display: grid;
   grid-template-columns: 30% 60% 10%;
@@ -212,10 +266,21 @@ main section.section-2 .section-2-main .section-2-main-containers .left {
   padding: 30px 0;
   border-bottom: 1px solid rgba(172, 172, 172, 0.671);
 }
+@media screen and (max-width: 500px) {
+  main section.section-2 .section-2-main .section-2-main-containers .left {
+    font-size: 0.7rem;
+  }
+}
 main section.section-2 .section-2-main .section-2-main-containers .left img {
   height: 80px;
   width: 80px;
   border-radius: 400px;
+}
+@media screen and (max-width: 500px) {
+  main section.section-2 .section-2-main .section-2-main-containers .left img {
+    height: 60px;
+    width: 60px;
+  }
 }
 main section.section-2 .section-2-main .section-2-main-containers .left h5 {
   text-transform: uppercase;
@@ -224,11 +289,22 @@ main section.section-2 .section-2-main .section-2-main-containers .left span {
   color: rgb(204, 133, 58);
   font-size: 1rem;
 }
+@media screen and (max-width: 500px) {
+  main section.section-2 .section-2-main .section-2-main-containers .left span {
+    font-size: 0.7rem;
+  }
+}
 main section.section-2 .section-2-main .section-2-main-containers .section-2-main-left {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
   width: 90%;
   padding: 0 0 0 50px;
+}
+@media screen and (max-width: 998px) {
+  main section.section-2 .section-2-main .section-2-main-containers .section-2-main-left {
+    padding: 0;
+    margin: 0 5%;
+  }
 }
 main section.section-2 .section-2-main .section-2-main-containers .section-2-main-right {
   display: grid;
@@ -236,6 +312,11 @@ main section.section-2 .section-2-main .section-2-main-containers .section-2-mai
   width: 90%;
   padding: 0 50px 0 0;
   margin: 0 5%;
+}
+@media screen and (max-width: 998px) {
+  main section.section-2 .section-2-main .section-2-main-containers .section-2-main-right {
+    padding: 0;
+  }
 }
 main section.section-2 .back-menu {
   background: url(../../../assets/img/bg-menu-01.jpg) center/cover;
