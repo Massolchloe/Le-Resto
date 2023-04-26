@@ -1,5 +1,9 @@
 .section-4{
     background: $black1;
+    @media screen and (max-width:800px){
+        display: none;
+        
+     } 
     .section-4-top{
         text-align: center;
         color: $white1;
@@ -17,6 +21,7 @@
     .section-4-bot{
         background: $black1;
         padding-bottom: 200px ;
+       
         .section-4-bot-left{
             width: 90%;
         margin: 0 auto;
@@ -29,6 +34,10 @@
         ;
         
         gap: 20px;
+        @media screen and (max-width:800px){
+            display: none;
+            
+         } 
         .july{
             display: flex;
             align-items: center;

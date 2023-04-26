@@ -339,6 +339,11 @@ main section.section-2 .back-menu {
   margin: 0px auto;
   padding: 70px 0;
 }
+@media screen and (max-width: 1100px) {
+  .section-3 .section-3-containers {
+    display: block;
+  }
+}
 .section-3 .section-3-containers h3 {
   font-size: 2rem;
   font-weight: 200;
@@ -357,12 +362,28 @@ main section.section-2 .back-menu {
   padding: 20px;
   color: rgb(204, 133, 58);
 }
+@media screen and (max-width: 1380px) {
+  .section-3 .section-3-containers h6 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
 .section-3 .section-3-containers p {
   font-family: roboto, sans-serif;
   font-size: 1rem;
 }
+@media screen and (max-width: 1200px) {
+  .section-3 .section-3-containers p {
+    font-size: 0.8rem;
+  }
+}
 .section-3 .section-3-containers .section-3-left {
   background: rgb(1, 1, 1);
+}
+@media screen and (max-width: 1100px) {
+  .section-3 .section-3-containers .section-3-left {
+    padding: 30px;
+  }
 }
 .section-3 .section-3-containers .section-3-left .sec-3-left-container {
   display: flex;
@@ -373,6 +394,12 @@ main section.section-2 .back-menu {
   border: 1px dotted rgb(243, 243, 243);
   padding: 30px;
 }
+@media screen and (max-width: 1100px) {
+  .section-3 .section-3-containers .section-3-left .sec-3-left-container {
+    margin: 0;
+    padding: 10px;
+  }
+}
 .section-3 .section-3-containers .section-3-right {
   display: flex;
   flex-direction: column;
@@ -381,6 +408,11 @@ main section.section-2 .back-menu {
   padding: 40px;
   background: rgb(238, 238, 238);
   color: rgb(1, 1, 1);
+}
+@media screen and (max-width: 500px) {
+  .section-3 .section-3-containers .section-3-right h4 {
+    font-size: 1.5rem;
+  }
 }
 .section-3 .section-3-containers .section-3-right form {
   display: grid;
@@ -393,6 +425,11 @@ main section.section-2 .back-menu {
   grid-template-columns: 33.3% 33.3% 33.3%;
   gap: 10px;
 }
+@media screen and (max-width: 800px) {
+  .section-3 .section-3-containers .section-3-right form .form-1 {
+    display: block;
+  }
+}
 .section-3 .section-3-containers .section-3-right form input, .section-3 .section-3-containers .section-3-right form select {
   border: none;
   background: transparent;
@@ -400,6 +437,13 @@ main section.section-2 .back-menu {
   font-size: 1rem;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(209, 208, 208);
+}
+@media screen and (max-width: 800px) {
+  .section-3 .section-3-containers .section-3-right form input, .section-3 .section-3-containers .section-3-right form select {
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+  }
 }
 .section-3 .section-3-containers .section-3-right button {
   display: block;
@@ -416,6 +460,11 @@ main section.section-2 .back-menu {
 
 .section-4 {
   background: rgb(32, 33, 28);
+}
+@media screen and (max-width: 800px) {
+  .section-4 {
+    display: none;
+  }
 }
 .section-4 .section-4-top {
   text-align: center;
@@ -443,6 +492,11 @@ main section.section-2 .back-menu {
   grid-template-rows: 50% 50%;
   grid-template-areas: "lft lr" "lfb lr";
   gap: 20px;
+}
+@media screen and (max-width: 800px) {
+  .section-4 .section-4-bot .section-4-bot-left {
+    display: none;
+  }
 }
 .section-4 .section-4-bot .section-4-bot-left .july {
   display: flex;
@@ -617,6 +671,11 @@ footer {
   background: url(../../assets/img/bg-footer.jpg) center/cover;
   color: rgb(243, 243, 243);
 }
+@media screen and (max-width: 800px) {
+  footer {
+    background: rgb(32, 33, 28);
+  }
+}
 footer .footer-containers {
   width: 80%;
   display: grid;
@@ -625,6 +684,11 @@ footer .footer-containers {
   gap: 40px;
   padding: 60px 0;
 }
+@media screen and (max-width: 800px) {
+  footer .footer-containers {
+    display: block;
+  }
+}
 footer .footer-containers h3 {
   font-size: 2.5rem;
 }
@@ -632,42 +696,54 @@ footer .footer-containers p {
   font-family: roboto, sans-serif;
   line-height: 40px;
 }
+@media screen and (max-width: 800px) {
+  footer .footer-containers .footer-resto {
+    display: none;
+  }
+}
 footer .footer-containers .newsletter {
   display: grid;
   grid-template-rows: 50% 50%;
 }
-footer .footer-containers .newsletter h6 {
+@media screen and (max-width: 800px) {
+  footer .footer-containers .newsletter {
+    display: block;
+    background: rgb(32, 33, 28);
+    width: 100%;
+  }
+}
+footer .footer-containers h6 {
   font-family: roboto, sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 2px;
   padding: 20px 0;
 }
-footer .footer-containers .newsletter input {
+footer .footer-containers input {
   background: transparent;
   padding: 10px 20px;
   font-family: roboto, sans-serif;
   font-size: 1rem;
   border: 1px solid rgb(89, 90, 86);
 }
-footer .footer-containers .newsletter .news {
+footer .footer-containers .news {
   padding-bottom: 40px;
 }
-footer .footer-containers .follow {
+footer .follow {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-footer .footer-containers .follow h6 {
+footer .follow h6 {
   width: 100%;
 }
-footer .footer-containers .follow ul {
+footer .follow ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 80%;
 }
-footer .footer-containers .follow ul li {
+footer .follow ul li {
   display: flex;
   align-items: center;
   color: rgb(89, 90, 86);
